@@ -1,0 +1,21 @@
+main: it.ItzSiL3Nce.unicodetext.UnicodeText
+version: 1.0
+author: ItzSiL3Nce
+name: UnicodeText
+permissions:
+  unicodetext.chat:
+    default: op
+    description: Allows the possessor to talk using unicode characters.
+  unicodetext.command:
+    default: op
+    description: Allows the possessor to use commands with unicode characters.
+  unicodetext.sign:
+    default: op
+    description: Allows the possessor to place signs with unicode characters.
+  unicodetext.*:
+    default: op
+    description: Gives access to all the other unicodetext's permissions.
+    children:
+      unicodetext.chat: true
+      unicodetext.command: true
+      unicodetext.sign: true

@@ -1,0 +1,6 @@
+# For example: \u00AB Do you like unicode? \u00BB
+Unicode Chat: true
+Unicode Signs: true
+
+# For example: /msg someone \u00AB Hey! \u00BB
+Unicode Commands: true
